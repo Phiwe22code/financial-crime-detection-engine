@@ -1,0 +1,12 @@
+data/*.db
+data/*.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+reports/*.png
