@@ -1,4 +1,5 @@
 data/*.db
+!data/financial_crime.db
 data/*.csv
 __pycache__/
 *.pyc

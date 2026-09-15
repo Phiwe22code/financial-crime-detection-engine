@@ -61,7 +61,10 @@ def _assign_band(score: float) -> str:
     Returns:
         One of 'Low', 'Medium', 'High'.
     """
-    for band, (low, high) in RISK_BANDS.items():
-        if low <= score <= high:
-            return band
-    return "High"  # Scores above 100 edge case
+    # Scores are rounded to one decimal place, so integer-style inclusive
+    # ranges would leave gaps such as 39.1–39.9 and 69.1–69.9.
+    if score < 40:
+        return "Low"
+    if score < 70:
+        return "Medium"
+    return "High"
