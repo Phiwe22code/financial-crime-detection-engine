@@ -1,5 +1,9 @@
 # Financial Crime Detection Engine
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Sentinel_ZA-22c7b8?style=for-the-badge)](https://financial-crime-detection-six.vercel.app/)
+
+**[Launch the live financial-crime command centre →](https://financial-crime-detection-six.vercel.app/)**
+
 > **Phase 1 MVP + interactive command centre** — An end-to-end fraud/AML detection pipeline built in Python, from synthetic data generation through anomaly detection to live South African fraud simulation and plain-language risk explanations.
 
 ---
